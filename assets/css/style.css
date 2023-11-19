@@ -1,0 +1,144 @@
+﻿/* reset css*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    cursor: url(../img/icons8-cursor-26.png),auto;
+}
+body{
+    background-image: linear-gradient(
+        to bottom, #CEAFDE, #add8d5
+    );
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 80vh;
+    min-height: auto;
+    background-image: linear-gradient(
+        to bottom, #eee, #ccc
+    );
+    position: relative;
+    border-radius: 25px;
+    /* border-style: inherit;
+    box-shadow: 0px 0px 50px 15px #ccc; */
+    box-shadow: 0px 0px 20px 1px rgb(99, 97, 97);
+    border-style: initial;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 16px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+.nav a{
+    padding:8px 12px;
+    border-radius: 25px;
+    background-image: linear-gradient(
+        to bottom, #CEAFDE, #add8d5
+    );
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    cursor: url(../img/icons8-hand-cursor-26.png),auto;
+
+}
+.nav .btn-play{
+    background-color: none;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    padding-left: 6px;
+}
+.nav a:hover{
+    background-image: linear-gradient(
+        to bottom, #ccc,#ccc
+    );
+}
+#love_avt{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+#avt{
+    position: static;
+    background-color: #CEAFDE;
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.social{
+    margin-top: 20px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.social .fb{
+    display: flex;
+    border-style: none;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px 0px;
+    background-image: linear-gradient(
+        to bottom, #CEAFDE, #add8d5
+    );
+    font-family:'Times New Roman', Times, serif;
+}
+.social div:last-child{
+    margin-bottom: 16px;
+}
+.social a{
+    color: blueviolet;
+    text-decoration: underline;
+    cursor: url(../img/icons8-hand-cursor-26.png),auto;
+}
+.social a:hover{
+    color: darkblue;
+}
+#snowflakeContainer .snowflake{
+    cursor: url(../img/icons8-cursor-26.png),auto;
+}
+
+
+#play-btn{
+    display: flex;
+    width: 32px;
+    height: 32px;
+    cursor: url(../img/icons8-hand-cursor-26.png),auto;
+}
+#pause-btn{
+    width: 32px;
+    height: 32px;
+    cursor: url(../img/icons8-hand-cursor-26.png),auto;
+    display: none;
+}
+
+.hidden{
+    display: none;
+}
+.unHidden{
+    display: flex;
+}

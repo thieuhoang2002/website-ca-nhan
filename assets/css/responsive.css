@@ -1,0 +1,125 @@
+/*PC*/
+@media (min-width: 1024px) {
+}
+/*TABLET VÀ MOBILE*/
+@media (max-width: 1023px) {
+    body{
+        
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container{
+        width: 80vh;
+        min-height: auto;
+
+        
+        position: relative;
+        
+        border-radius: 25px;
+        box-shadow: 0px 0px 20px 1px rgb(99, 97, 97);
+    border-style: initial;
+        margin-bottom: 25px;
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 12px;
+        margin-right: 12px;
+
+    }
+    .nav a{
+        line-height: 32px;
+        padding:0px 8px;
+        border-radius: 25px;
+        
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 12px;
+        color: #212B70;
+        cursor: url(../img/icons8-hand-cursor-26.png),auto;
+    
+    }
+
+    .social .fb{
+        display: flex;
+        border-style: none;
+        border-radius: 25px;
+        padding: 10px;
+        margin: 10px 0px;
+        
+        font-family:'Times New Roman', Times, serif;
+        font-size: 12px;
+    }
+    .social a{
+        color:#212B70 ;
+        text-decoration: underline;
+        cursor: url(../img/icons8-hand-cursor-26.png),auto;
+    }
+    .social a:hover{
+        color: darkblue;
+    }
+}
+/*TABLET*/
+@media (min-width: 740px) and (max-width: 1023px) {
+    
+}
+/*MOBILE*/
+@media (max-width: 740px) {
+    body{
+        
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container{
+        width: 80vh;
+        min-height: auto;
+
+        
+        position: relative;
+        
+        border-radius: 25px;
+        box-shadow: 0px 0px 20px 1px rgb(99, 97, 97);
+        border-style: initial;
+        margin-bottom: 25px;
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 12px;
+        margin-right: 12px;
+
+    }
+    .nav a{
+        line-height: 32px;
+        padding:0px 8px;
+        border-radius: 25px;
+        
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 12px;
+        color: #212B70;
+        cursor: url(../img/icons8-hand-cursor-26.png),auto;
+    
+    }
+
+    .social .fb{
+        display: flex;
+        border-style: none;
+        border-radius: 25px;
+        padding: 10px;
+        margin: 10px 0px;
+        
+        font-family:'Times New Roman', Times, serif;
+        font-size: 12px;
+    }
+    .social a{
+        color:#212B70 ;
+        text-decoration: underline;
+        cursor: url(../img/icons8-hand-cursor-26.png),auto;
+    }
+    .social a:hover{
+        color: darkblue;
+    }
+}
